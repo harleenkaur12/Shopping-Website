@@ -1,0 +1,104 @@
+body{
+font-family: 'ubuntu';
+}
+.container-fluid{
+    margin: 0%;
+}
+.navbar{
+    margin-top: 1%;
+}
+.shirt{
+    margin-right: 5%;
+    color: rgb(254, 162, 178);
+}
+.navbar-brand{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.nav-item{
+    margin: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+.carousel-item{
+    height: 500px;
+ }
+/* shopping page */ 
+.card{
+    display: inline-block;
+}
+#shop{
+    margin: 2%;
+}
+.img{
+    padding-bottom: 20px;
+}
+#shopping{
+    text-align: center;
+    font-family: 'ubuntu';
+    margin: 5% 5%;
+}
+#products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pro{
+    width: 23%;
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    padding: 3em;
+    margin-bottom: 2em;   
+}
+img{
+    height: 30%;
+    width: 120%;    
+}
+p{
+    font-size: medium;
+}
+#search_bar{
+    width: 375px;
+    
+    
+    box-shadow: 4px 4px 30px rgb(0 0 0 0.06);
+    
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 30px rgb(0 0 0 0.06);
+    align-items: center;
+    border-radius: 100;
+    
+}
+.container {
+    align-items: center;
+    position: relative;
+    left: 350px;
+    
+}
+#search_bar form{
+    padding: 10px;
+}
+
+#product-list.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    background-color: green;
+    width: 500px;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+#product-list img{
+    height: 30%;
+    width: 10%;    
+}
+#img-main{
+    height: 80%;
+    width: 80%;
+    margin: 10px 100px 10px 100px;
+}
